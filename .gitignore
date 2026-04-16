@@ -1,0 +1,37 @@
+# === ALLOWLIST STRATEGY ===
+# Ignore EVERYTHING by default, then explicitly un-ignore only the files we want.
+# This makes "git add ." completely safe.
+
+# Ignore all files and folders
+*
+
+# === ALLOW THESE SPECIFIC FILES ===
+!.gitignore
+!compling26_assignment (1).ipynb
+!*.pdf
+
+# === RE-IGNORE SPECIFIC FILES ===
+kimi-export-*.md
+compling26_assignment (1).py
+
+# === DIRECTORIES THAT MUST NEVER BE COMMITTED ===
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+env/
+
+# === FILE TYPES THAT MUST NEVER BE COMMITTED ===
+*.pkl
+*.png
+*.jpg
+*.jpeg
+*.h5
+*.npy
+*.tmp
+*.temp
+*.log
+*.py[cod]
+*.egg-info/
+*.md

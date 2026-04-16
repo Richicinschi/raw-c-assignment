@@ -3,7 +3,6 @@
 # This makes "git add ." completely safe.
 
 # Ignore all files and folders
-*
 
 # === ALLOW THESE SPECIFIC FILES ===
 !.gitignore
@@ -23,8 +22,6 @@ venv/
 env/
 
 # === FILE TYPES THAT MUST NEVER BE COMMITTED ===
-*.pkl
-*.png
 *.jpg
 *.jpeg
 *.h5
